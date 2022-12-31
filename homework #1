@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSlight
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Целочисленные
+            byte life; // от 0 до 255
+            life = 100;
+            sbyte protectionPhysical;// от -128 до 127
+            protectionPhysical = -5;
+            sbyte protectionMental;
+            protectionMental = 15;
+            sbyte protectionFiery;
+            protectionFiery = 7;
+            sbyte protectionWater;
+            protectionWater = 34;
+            short losingPoints;// от -32768 до 32767 
+            losingPoints = -500;
+            short victoryPoints;
+            victoryPoints = 1500;
+            ushort totalPoints;// от 0 до 65535
+            totalPoints = 33000; 
+            int criticalStrikeChance; // от -2147483648 до 2147484647
+            criticalStrikeChance = 45; 
+            uint damage;// от 0 до 4294967295
+            damage = 36;
+            // Числа с плавающей точкой
+            float playerWeight; // 7 знаков после запятой, но "5.7f;"
+            playerWeight = 7.4567f;
+            //Символьный тип
+            char grade = 'A';
+            string welcomeText = "Проснитесь и пойте, мистер Фримен. Проснитесь и пойте... Нет, я не хочу сказать, что вы спите на работе...";
+            // логическая переменная
+            bool abilityToInflictDamage = True;
+
+            Console.WriteLine(welcomeText);
+
+            Console.ReadKey();
+        }
+    }
+}
