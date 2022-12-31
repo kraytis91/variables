@@ -40,9 +40,7 @@ namespace CSlight
             string welcomeText = "Проснитесь и пойте, мистер Фримен. Проснитесь и пойте... Нет, я не хочу сказать, что вы спите на работе...";
             // логическая переменная
             bool abilityToInflictDamage = true;
-
             Console.WriteLine(welcomeText);
-
             Console.ReadKey();
         }
     }
