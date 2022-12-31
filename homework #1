@@ -1,3 +1,4 @@
+[StartCode]
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,10 +36,10 @@ namespace CSlight
             float playerWeight; // 7 знаков после запятой, но "5.7f;"
             playerWeight = 7.4567f;
             //Символьный тип
-            char grade = 'A';
+            char gradePlayer = 'A';
             string welcomeText = "Проснитесь и пойте, мистер Фримен. Проснитесь и пойте... Нет, я не хочу сказать, что вы спите на работе...";
             // логическая переменная
-            bool abilityToInflictDamage = True;
+            bool abilityToInflictDamage = true;
 
             Console.WriteLine(welcomeText);
 
@@ -46,3 +47,4 @@ namespace CSlight
         }
     }
 }
+[EndCode]
